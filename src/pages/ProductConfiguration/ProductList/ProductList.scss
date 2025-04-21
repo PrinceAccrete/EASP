@@ -1,0 +1,35 @@
+@use '../../../../styles/layout/variables.scss' as vars;
+
+.p-datatable-header {
+    padding: 0.5rem 0.5rem;
+    // background-color: vars.$backgroundColor1;
+}
+
+.product-dialogue .p-dialog-header {
+    padding: 1rem;
+}
+
+.product-dialogue .p-dialog-content {
+    padding: 0rem;
+}
+
+.custom-row-class td {
+    padding: 0.5rem 0.5rem;
+}
+
+.custom-tabview .p-tabview-nav {
+    display: flex;
+    justify-content: space-between; /* Distribute tabs across the header */
+}
+
+.custom-tabview .p-tabview-nav li {
+    flex: 1; /* Each tab gets equal width */
+    text-align: center; /* Centers the header text within each tab */
+    display: flex;
+    justify-content: center; /* Centers the text horizontally */
+    align-items: center; /* Centers the text vertically */
+}
+
+.custom-tabview .p-tabview-nav .p-tabview-ink-bar {
+    display: none; /* Hides the ink bar */
+}

@@ -1,0 +1,49 @@
+.login-main-box {
+  display: flex;
+  align-items: center;
+  background: #fff;
+}
+.login-main-box .login-image {
+  width: 50%;
+  text-align: center;
+}
+@media only screen and (min-width: 0px) and (max-width: 1023px) {
+  .login-main-box .login-image {
+    display: none;
+  }
+}
+.login-main-box .login-image .log-in-img {
+  width: 600px;
+  max-width: 80%;
+}
+.login-main-box .set-login-box {
+  width: 50%;
+  height: 100vh;
+  background: #E7E8F4 !important;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (min-width: 0px) and (max-width: 1023px) {
+  .login-main-box .set-login-box {
+    width: 100%;
+  }
+}
+.login-main-box .set-login-box .set-center-login {
+  position: relative;
+  width: 100%;
+  margin-left: 15px;
+  margin-right: 15px;
+  /* display: flex; */
+  flex: 0 0 66.33%;
+  max-width: 66.33%;
+  -webkit-box-flex: 0;
+}
+@media only screen and (min-width: 0px) and (max-width: 1023px) {
+  .login-main-box .set-login-box .set-center-login {
+    width: 100%;
+    display: block;
+    max-width: 100%;
+    flex: 0 0 80%;
+  }
+}/*# sourceMappingURL=Login.css.map */

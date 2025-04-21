@@ -1,0 +1,57 @@
+.sidebar-header-image {
+  width: 50%;
+  margin: 10px auto;
+}
+.sidebar-header-image img {
+  width: 100%;
+}
+
+.sidebar .sidebar-section {
+  margin-bottom: 20px;
+}
+.sidebar .sidebar-section .sidebar-section-title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 10px;
+}
+.sidebar .sidebar-section .sidebar-items .sidebar-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 10px;
+  font-size: 14px;
+  color: #444;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.sidebar .sidebar-section .sidebar-items .sidebar-item:hover {
+  background-color: #f1f1f1;
+}
+.sidebar .sidebar-section .sidebar-items .sidebar-item .sidebar-icon {
+  margin-right: 10px;
+}
+.sidebar .sidebar-section .sidebar-items .sidebar-item .sidebar-icon i {
+  font-size: 16px;
+}
+.sidebar .sidebar-section .sidebar-items .sidebar-item .sidebar-label {
+  flex: 1;
+  text-decoration: none;
+  color: inherit;
+}
+.sidebar .sidebar-section .sidebar-items .sidebar-item .sidebar-label a {
+  text-decoration: none;
+  color: inherit;
+}
+.sidebar .sidebar-section .sidebar-items .sidebar-item .sidebar-toggle-icon i {
+  font-size: 14px;
+}
+.sidebar .sidebar-section .sidebar-items .sidebar-item.sidebar-item-has-children {
+  padding-right: 5px;
+}
+.sidebar .sidebar-section .sidebar-items .sidebar-submenu {
+  margin-left: 20px;
+}
+.sidebar .sidebar-section .sidebar-items .sidebar-submenu .sidebar-item {
+  padding-left: 15px;
+}/*# sourceMappingURL=AppSidebar.css.map */
